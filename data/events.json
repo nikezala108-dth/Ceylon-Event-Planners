@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Royal Coastal Poruwa Wedding",
+    "category": "Wedding",
+    "date": "August 2026",
+    "guests": "300 Guests",
+    "location": "Bentota Beachfront Resort, Sri Lanka",
+    "image": "images/wedding-gala.jpg",
+    "summary": "A traditional Sri Lankan Poruwa wedding set along the southern coast at sunset, featuring tropical floral arches, Kandyan dancers, and a grand beachfront reception.",
+    "highlights": [
+      "Traditional handcrafted Poruwa & floral canopy",
+      "Kandyan dancers & Jayamangala Gatha coordination",
+      "Luxury beachfront banquet & fairy-light decor"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Colombo Grand Year-End Party",
+    "category": "Year-End Party",
+    "date": "December 2026",
+    "guests": "450 Guests",
+    "location": "Shangri-La Ballroom, Colombo",
+    "image": "images/year-end-party.jpg",
+    "summary": "A dazzling corporate year-end gala night featuring live Sri Lankan bands, themed stage lighting, gourmet dinner buffets, and interactive entertainment.",
+    "highlights": [
+      "Dynamic LED stage & beam lighting show",
+      "Live band & DJ dance floor production",
+      "Gala dinner & raffle prize management"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Kandy Hills Live Musical Show",
+    "category": "Musical Show",
+    "date": "July 2026",
+    "guests": "2,500 Guests",
+    "location": "Kandy Open-Air Arena, Sri Lanka",
+    "image": "images/musical-show.jpg",
+    "summary": "An electrifying open-air Sri Lankan live musical concert with concert-grade line-array sound systems, vibrant stage lighting, and festival food stalls.",
+    "highlights": [
+      "Concert-grade sound & intelligent lighting rig",
+      "Full artist backstage & crowd flow management",
+      "VIP lounge & street food festival zone"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Ceylon Excellence Award Ceremony",
+    "category": "Award Ceremony",
+    "date": "September 2026",
+    "guests": "350 Guests",
+    "location": "BMICH Main Hall, Colombo",
+    "image": "images/award-ceremony.jpg",
+    "summary": "A prestigious national corporate award night complete with a gold-accented LED stage, red carpet media arrivals, and seamless trophy presentation choreography.",
+    "highlights": [
+      "Custom gold & black LED stage backdrop",
+      "VIP red carpet & press photography wall",
+      "Synchronized audio-visual award cues"
+    ]
+  }
+]

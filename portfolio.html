@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Ceylon Event Planners</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Ceylon <span>Event Planners</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><button id="themeToggle" class="theme-btn" aria-label="Toggle Dark Mode">🌙 Dark</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <h1>Our Event Portfolio</h1>
+        <p>Browse our curated collection of weddings, year-end parties, musical shows, and award ceremonies across Sri Lanka.</p>
+      </div>
+    </section>
+
+    <section class="portfolio-section section-padding">
+      <div class="container">
+        <!-- Interactive Category Filter Buttons -->
+        <div class="filter-bar" role="group" aria-label="Filter events by category">
+          <button class="filter-btn active" data-filter="All">All Events</button>
+          <button class="filter-btn" data-filter="Wedding">Weddings</button>
+          <button class="filter-btn" data-filter="Year-End Party">Year-End Parties</button>
+          <button class="filter-btn" data-filter="Musical Show">Musical Shows</button>
+          <button class="filter-btn" data-filter="Award Ceremony">Award Ceremonies</button>
+        </div>
+
+        <!-- Dynamic Portfolio Grid Rendered via JavaScript / JSON -->
+        <div class="portfolio-grid" id="portfolioGrid">
+          <!-- Cards injected dynamically by script.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Modal Popup for Event Details -->
+  <div class="modal-overlay" id="eventModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-box">
+      <button class="modal-close" id="closeModal" aria-label="Close modal">&times;</button>
+      <img id="modalImg" src="" alt="" class="modal-img" />
+      <div class="modal-body">
+        <span class="badge" id="modalCategory">Category</span>
+        <h2 id="modalTitle">Event Title</h2>
+        <p class="modal-meta" id="modalMeta">Date &bull; Location &bull; Guests</p>
+        <p id="modalSummary">Event description goes here.</p>
+        <h4>Key Highlights:</h4>
+        <ul id="modalHighlights" class="highlights-list"></ul>
+        <a href="contact.html" class="btn btn-primary">Plan a Similar Event</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo footer-logo">Ceylon <span>Event Planners</span></a>
+        <p>Designing meaningful Sri Lankan experiences with creativity, precision, and heart.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact Info</h4>
+        <p>Email: mail@ceyloneventplanners.lk</p>
+        <p>Phone: +94 11 108 1122</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Ceylon Event Planners. Group Web Portfolio Project.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

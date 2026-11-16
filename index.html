@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ceylon Event Planners | Bespoke Event Planning Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Ceylon <span>Event Planners</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><button id="themeToggle" class="theme-btn" aria-label="Toggle Dark Mode">🌙 Dark</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content fade-in">
+          <span class="badge">Premier Event Planning Studio in Sri Lanka</span>
+          <h1>Turning Your Vision Into Unforgettable Experiences</h1>
+          <p>From traditional Sri Lankan weddings and vibrant musical shows to grand year-end parties and award ceremonies, Ceylon Event Planners handles every detail with precision, creativity, and flair.</p>
+          <div class="hero-actions">
+            <a href="portfolio.html" class="btn btn-primary">Explore Our Events</a>
+            <a href="contact.html" class="btn btn-outline">Book a Consultation</a>
+          </div>
+        </div>
+        <div class="hero-media fade-in">
+          <img src="images/hero-banner.jpg" alt="Ceylon Event Planners Showcase" class="hero-img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding">
+      <div class="container">
+        <div class="section-header">
+          <h2>What We Do Best</h2>
+          <p>Tailored planning, design, and seamless on-site execution for every occasion across Sri Lanka.</p>
+        </div>
+        <div class="services-grid">
+          <article class="card service-card">
+            <div class="card-icon">💍</div>
+            <h3>Weddings</h3>
+            <p>Full-service Sri Lankan Poruwa &amp; reception design, floral architecture, venue styling, and timeline management for stress-free celebrations.</p>
+          </article>
+          <article class="card service-card">
+            <div class="card-icon">🎸</div>
+            <h3>Musical Shows</h3>
+            <p>Open-air concerts, live band productions, stage lighting, and high-impact sound engineering for unforgettable musical nights.</p>
+          </article>
+          <article class="card service-card">
+            <div class="card-icon">🏆</div>
+            <h3>Year-End Parties &amp; Awards</h3>
+            <p>Grand corporate year-end galas and prestigious award ceremonies engineered with modern AV production and elegant hospitality.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Highlight Slider Section (Wedding, Year-End Party, Musical Show) -->
+    <section class="featured-slider section-padding bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Signature Moments</h2>
+          <p>Swipe or click through a few of our favorite recent productions in Sri Lanka.</p>
+        </div>
+        <div class="slider-wrapper">
+          <button class="slider-btn prev-btn" id="prevSlide" aria-label="Previous slide">&#10094;</button>
+          <div class="slider-track" id="sliderTrack">
+            <article class="slide active">
+              <img src="images/wedding-gala.jpg" alt="Royal Coastal Poruwa Wedding" />
+              <div class="slide-caption">
+                <h3>Royal Coastal Poruwa Wedding</h3>
+                <p>Bentota Beachfront &bull; 300 Guests</p>
+              </div>
+            </article>
+            <article class="slide">
+              <img src="images/year-end-party.jpg" alt="Colombo Grand Year-End Party" />
+              <div class="slide-caption">
+                <h3>Colombo Grand Year-End Party</h3>
+                <p>Shangri-La Ballroom, Colombo &bull; 450 Guests</p>
+              </div>
+            </article>
+            <article class="slide">
+              <img src="images/musical-show.jpg" alt="Kandy Hills Live Musical Show" />
+              <div class="slide-caption">
+                <h3>Kandy Hills Live Musical Show</h3>
+                <p>Kandy Open-Air Arena &bull; 2,500 Guests</p>
+              </div>
+            </article>
+          </div>
+          <button class="slider-btn next-btn" id="nextSlide" aria-label="Next slide">&#10095;</button>
+        </div>
+        <div class="slider-dots" id="sliderDots"></div>
+      </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="cta-banner">
+      <div class="container cta-flex">
+        <div>
+          <h2>Ready to Plan Your Next Big Event?</h2>
+          <p>Let's discuss your ideas, budget, and timeline in a free 30-minute discovery session.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Get Started Today</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo footer-logo">Ceylon <span>Event Planners</span></a>
+        <p>Designing meaningful Sri Lankan experiences with creativity, precision, and heart.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact Info</h4>
+        <p>Email: mail@ceyloneventplanners.lk</p>
+        <p>Phone: +94 11 108 1122</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Ceylon Event Planners. Group Web Portfolio Project.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
