@@ -56,8 +56,9 @@ ceylon_event_planners_portfolio/
 
 ## 4. Instructions to Run the Project
 
-1. **Option A — Direct Browser Open:** Double-click `index.html` to open it in any modern browser (Chrome, Edge, Firefox, Safari).
-2. **Option B — Local Development Server (Recommended for `fetch()` JSON loading):**
+1. **Extract the ZIP archive** (`ceylon-event-planners-portfolio.zip`) to a folder on your computer.
+2. **Option A — Direct Browser Open:** Double-click `index.html` to open it in any modern browser (Chrome, Edge, Firefox, Safari).
+3. **Option B — Local Development Server (Recommended for `fetch()` JSON loading):**
    - Open the folder in **VS Code** and click **Go Live** (using the *Live Server* extension), or run:
      ```bash
      python -m http.server 8000
